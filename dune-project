@@ -8,6 +8,7 @@
  (github dponyatov/mlx))
 
 (authors "Dmitry Ponyatov <dponyatov@gmail.com>")
+(maintainers "Dmitry Ponyatov <dponyatov@gmail.com>")
 
 (license MIT)
 

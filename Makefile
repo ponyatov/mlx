@@ -36,3 +36,14 @@ tmp/format_ml:
 # rule
 $(BIN)/$(MODULE): $(C) $(H)
 	$(CXX) $(CFLAGS) -o $@ $(C) $(L)
+
+# install
+.PHONY: install update ref gz
+install: ref gz
+	make update
+update:
+	sudo apt update
+	sudo apt install -uy `cat apt.$(shell lsb_release -si)`
+	opam install . --deps-only
+ref:
+gz:
