@@ -1,0 +1,9 @@
+{
+    "files.exclude": {
+        "**/_build/**": true,
+    },
+
+    "[ocaml]": {
+        "editor.formatOnSave": true
+    }
+}

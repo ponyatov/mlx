@@ -1,0 +1,5 @@
+version=0.26.2
+profile=default
+margin=80
+line-endings=lf
+break-string-literals=never
