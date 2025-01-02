@@ -15,7 +15,6 @@ module Token = struct
     | SUB
     | MUL
     | DIV
-    | POW
     | EQ
     (* delimiters *)
     | COMMA
@@ -31,4 +30,10 @@ module Token = struct
     (* {} *)
     | LC
     | RC
+    (* keywords *)
+    | FN
+    | LET
+    (* VM commands *)
+    | NOP
+    | HALT
 end
